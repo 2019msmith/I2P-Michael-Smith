@@ -12,7 +12,7 @@ def intro():
         if playy == "y":
             print ("\nGreat! Let's begin!\n\nThe rules are simple: I ask questions, and you answer them.\n\nI will keep score, and you will find out what your score is at the end of the quiz.\n\nGood Luck!")
             break
-        if playy == "n":
+        elif playy == "n":
             print("\nWell, you don't really have a choice")
         else:
             print("\nI'm sorry, I don't recognize your input. Press 'Y' if yes, and 'N' if no.")
